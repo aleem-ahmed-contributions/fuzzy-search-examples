@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 
 mongoose.Promise = global.Promise
 mongoose.connect(
-	'mongodb://localhost:27017/search-example',
+	'mongodb://localhost:27017/fuzzy-search-example',
 	{
 		useNewUrlParser: true,
 		useUnifiedTopology: true,
