@@ -10,7 +10,7 @@ const UserSchema = new mongoose.Schema({
   age: Number,
 }).plugin(
   mongoose_fuzzy_searching,
-  { fields: ['firstName', 'lastName']
+  { fields: ['firstName', 'lastName', 'email']
 })
 
 
