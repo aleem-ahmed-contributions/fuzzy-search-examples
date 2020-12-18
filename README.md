@@ -1,3 +1,7 @@
+### Prereq
+##### You must have mongodb installed
+##### you must have node installed
+
 ##### run this command first
 
 ```
